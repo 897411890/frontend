@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
-    <div class="grid_bg"></div>
+    <div class="grid_bg">
+        <h1>标题占位</h1>
+        <div class="kuang"></div>
+    </div>
   </div>
 </template>
 
@@ -18,8 +21,13 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   *{
-    width: 100%;
-    height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+  .kuang{
+   background-color: #ffffff;
+   width: 300px;
+   height: 200px;
   }
   .grid_bg{
     background: url(https://static.zhihu.com/heifetz/assets/sign_bg.db29b0fb.png) no-repeat;
